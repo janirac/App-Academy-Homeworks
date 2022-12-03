@@ -17,3 +17,22 @@ class Stack
         @people.last
     end
   end
+
+  #Exercise 2 Queue
+class Queue
+    def initialize
+        @people = []
+    end 
+
+    def enqueue(el)
+        @people.push(el)
+    end 
+
+    def dequeue
+        @people.shift
+    end 
+
+    def peek
+        @people.first
+    end 
+end 
